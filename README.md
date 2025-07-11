@@ -1,12 +1,6 @@
 # LLM Reviewer Backend
 
-**LLM Reviewer** is a FastAPI backend that leverages advanced language models (LLMs) to automatically summarize customer reviews. It is designed to work seamlessly with the [llm-reviewer-frontend](https://github.com/yourusername/llm-reviewer-frontend) browser extension, which scrapes reviews from Amazon product pages and sends them to this API for instant, AI-powered insights.
-
----
-
-## 🚀 What Does This Project Do?
-
-This backend receives a list of product reviews (in any language), processes them through a chain of LLM-powered steps, and returns a concise summary of the top pros and cons. This helps users quickly understand the strengths and weaknesses of a product without reading hundreds or thousands of individual reviews.
+**LLM Reviewer** is a FastAPI backend that leverages advanced language models (LLMs) to automatically summarize customer reviews. Designed to work seamlessly with the [llm-reviewer-frontend](https://github.com/yourusername/llm-reviewer-frontend) browser extension, it enables users to scrape reviews from the product pages and instantly receive AI-powered summaries of the top pros and cons. By processing reviews in any language through a chain of LLM-powered steps, this backend helps users quickly understand a product’s strengths and weaknesses without reading hundreds of individual reviews.
 
 ---
 
@@ -15,7 +9,6 @@ This backend receives a list of product reviews (in any language), processes the
 AI is transforming how we interact with information. In this project, AI is used to:
 - **Aggregate and analyze large volumes of user-generated content** (reviews)
 - **Extract key insights** (pros and cons) that matter most to potential buyers
-- **Enable multilingual understanding** by processing reviews in any language
 - **Deliver instant, actionable summaries** for better, faster decision-making
 
 This is a practical example of how LLMs can be used to automate research, enhance e-commerce experiences, and save users valuable time.
@@ -44,25 +37,6 @@ When reviewing [Sony WH-1000XM5 Headphones](https://www.amazon.com/Sony-WH-1000X
 
 ![AI Review Summary Example](example-summary.png)
 
-**AI Review Summary**
-
-⭐ 4.2 / 5 (1,694 reviews)
-
-✅ **Pros:**
-- Excellent sound quality
-- Great noise cancellation
-- Comfortable for long flights
-- Quick charging
-- Lightweight design
-
-❌ **Cons:**
-- Headband can be uncomfortable for bald users
-- Bulky design
-- Limited noise cancellation against contact vibrations
-- Not stable for physical activities like cleaning or going to the gym
-- Sound quality may not be as impressive as expected for the price
-
----
 
 ## 🛠️ Project Structure
 
